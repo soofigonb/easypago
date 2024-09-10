@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.navbar {
+    background-color: white; 
+}
+
+.navbar-brand img {
+    max-width: 350px; 
+    height: auto; /
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+#formulario .input {
+    border: none;
+    border-bottom: 2px solid rgb(92, 107, 192);
+    outline: none;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+
+label {
+    color: #7b1fa2;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.btn{
+    color: white;
+    background-color: #691b9a93;
+    width: 200px;
+    height: auto;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#resultado {
+    padding: 10px;
+    font-size: 18px;
+    color: #691b9a93;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+  
